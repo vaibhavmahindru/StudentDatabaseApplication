@@ -16,4 +16,4 @@ It performs the following functions:-
   - Courses Enrolled
   - Balance
 
-## I have not called the account method in the code anywhere.
+I have not called the account method in the code anywhere.
