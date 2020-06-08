@@ -14,6 +14,7 @@ public class Student {
 
     Scanner in = new Scanner(System.in);
 
+    // constructor for the rest of the function.
     public Student(int n) {
         for (int i = 0; i < n; i++) {
             setNameAndYear();
@@ -24,6 +25,7 @@ public class Student {
 
     }
 
+    // methos to set the name and the year
     private void setNameAndYear() {
         System.out.print("enter the first name: ");
         this.fName = in.nextLine();
@@ -37,16 +39,20 @@ public class Student {
 
     }
 
+    // to genrate an id
     private String setId() {
         id++;
+        // 5 digit unique id with first number being the student's year
         return year + "" + id;
     }
 
+    // show full information of the student
     private void showInfo() {
         System.out.print("NAME: " + fName + " " + lName + "\nYEAR: " + year + "\nID: " + stuId + "\nCOURSES ENROLLED: "
                 + courses + "\nBALANCE: " + balance);
     }
 
+    // method to enroll in the courses
     public void enroll() {
         int x;
         do {
@@ -76,6 +82,7 @@ public class Student {
         System.out.println("Balance: " + balance);
     }
 
+    // methos to pay the fees and view balance
     public void account() {
         System.out.println("Enter your option:-\n1 View Balance\n2 Pay");
         int x = in.nextInt();
