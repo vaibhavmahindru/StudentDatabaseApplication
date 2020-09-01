@@ -9,7 +9,7 @@ It performs the following functions:-
 - Each and every student will have a unique 5 digit ID with first number being there year.
 - Student will enroll in the given courses.
 - Each course will cost differently or same.
-- The student would be able to view their balance and pay their tution fees.
+- The student would be able to view their balance and pay their tuition fees.
 - Student would see the following things in their details:-
   - Name
   - ID
